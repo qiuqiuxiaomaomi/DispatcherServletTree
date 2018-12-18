@@ -22,3 +22,15 @@ DispatcherServlet源码，处理流程
       12）DispatcherServlet类进行视图View的渲染，填充Model
       13）DispatcherServlet向用户返回响应。
 </pre>
+
+### Servlet生命周期
+
+![](https://i.imgur.com/1lecgj3.png)
+
+<pre>
+Servlet生命周期
+
+      init()方法
+      容器调用 Servlet的doPost, doGet等方法
+      destroy()方法
+</pre>
